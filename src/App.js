@@ -19,7 +19,7 @@ const App = () => {
     },
     { title: 'Courses', amount: 1232, date: new Date(2021, 8, 6), id: 'e3' },
     {
-      title: 'Toilet Paper',
+      title: 'Some food',
       amount: 124,
       date: new Date(2020, 4, 14),
       id: 'e4',
