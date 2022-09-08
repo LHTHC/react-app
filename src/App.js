@@ -14,14 +14,14 @@ const App = () => {
     {
       title: 'Some Books',
       amount: 160.38,
-      date: new Date(2021, 3, 8),
+      date: new Date(2020, 3, 8),
       id: 'e2',
     },
-    { title: 'Courses', amount: 1232, date: new Date(2021, 8, 6), id: 'e3' },
+    { title: 'Courses', amount: 1232, date: new Date(2022, 8, 6), id: 'e3' },
     {
       title: 'Some food',
       amount: 124,
-      date: new Date(2020, 4, 14),
+      date: new Date(2022, 4, 14),
       id: 'e4',
     },
   ];
