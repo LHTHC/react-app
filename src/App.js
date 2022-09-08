@@ -11,9 +11,14 @@ const App = () => {
     { title: 'Toilet Paper', amount: 124, date: new Date(2020, 4, 14) },
   ];
 
+  const addExpenseHandler = (expence) => {
+    console.log('in App.js');
+    console.log(expenses);
+  };
+
   return (
     <div>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expences items={expenses} />
     </div>
   );
